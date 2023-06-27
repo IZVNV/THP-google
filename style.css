@@ -1,0 +1,105 @@
+.searchlogo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+}
+#logo {
+  width: 280px;
+}
+
+#searchbarre {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 550px;
+  padding: 15px;
+  margin-top: 15px;
+  border-radius: 30px;
+  background-color: #202124;
+  border: 1px solid #5f6368;
+  color: white;
+}
+body {
+  background-color: #202124;
+}
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 15px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+}
+
+.toplink {
+  padding-left: 15px;
+  color: #ffffff;
+}
+a:visited {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+#searchbuttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.searchbutton {
+  display: flex;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-left: 16px;
+  padding-right: 16px;
+  align-items: center;
+  background-color: #303134;
+  color: #ffffff;
+
+  margin: 4px;
+  border-radius: 7px;
+  height: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.toplink {
+  width: 24px;
+  padding-right: 15px;
+}
+#France {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  color: #9aa0a6;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.Durables {
+  display: flex;
+  justify-content: center;
+  background-color: #181818;
+}
+
+.footerlink {
+  color: #9aa0a6;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 15px;
+}
+
+.footergrouplinkfirstline {
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+  background-color: #181818;
+}
